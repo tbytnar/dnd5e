@@ -1,19 +1,24 @@
 {
-  "id": "dnd5e",
-  "title": "DnD5e - Fifth Edition System",
-  "description": "A system for playing the fifth edition of the worlds most popular role-playing game in the Foundry Virtual Tabletop environment.",
+  "id": "dnd5eawakening",
+  "title": "DnD5e - Fifth Edition System - The Awakening",
+  "description": "A system for playing the fifth edition of the worlds most popular role-playing game in the Foundry Virtual Tabletop environment. Modified by Tim Bytnar for The Awakening",
   "version": "2.1.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
   },
-  "url": "https://github.com/foundryvtt/dnd5e/",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-  "download": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.1.1/dnd5e-release-2.1.1.zip",
+  "url": "https://github.com/tbytnar/dnd5e/",
+  "manifest": "https://raw.githubusercontent.com/tbytnar/dnd5e/master/system.json",
+  "download": "https://github.com/tbytnar/dnd5e/releases/download/release-2.1.1/dnd5e-release-2.1.1.zip",
   "authors": [
     {
       "name": "Atropos",
       "url": "https://foundryvtt.com",
+      "flags": {}
+    },
+    {
+      "name": "Timnottimmy",
+      "url": "",
       "flags": {}
     }
   ],
