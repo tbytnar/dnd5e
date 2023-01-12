@@ -1062,7 +1062,12 @@ DND5E.spellcastingTypes = {
         label: "DND5E.SpellProgArt",
         divisor: 2,
         roundUp: true
-      }
+      },
+      channeler: {
+        label: "DND5E.SpellProgChan",
+        divisor: 3,
+        roundUp: true
+      },
     }
   },
   pact: {
@@ -1084,7 +1089,8 @@ DND5E.spellProgression = {
   half: "DND5E.SpellProgHalf",
   third: "DND5E.SpellProgThird",
   pact: "DND5E.SpellProgPact",
-  artificer: "DND5E.SpellProgArt"
+  artificer: "DND5E.SpellProgArt",
+  channeler: "DND5E.SpellProgChan"
 };
 preLocalize("spellProgression", { key: "label" });
 
